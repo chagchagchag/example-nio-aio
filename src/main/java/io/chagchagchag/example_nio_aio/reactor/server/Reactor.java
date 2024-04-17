@@ -22,6 +22,7 @@ public class Reactor implements Runnable{
 
 
   public Reactor(int port) throws Exception {
+    assert port != 0;
     this.port = port;
     this.serverChannel = ServerSocketChannel.open();
 
