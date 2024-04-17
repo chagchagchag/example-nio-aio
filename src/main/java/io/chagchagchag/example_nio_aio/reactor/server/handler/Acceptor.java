@@ -1,6 +1,5 @@
-package io.chagchagchag.example_nio_aio.reactor.server;
+package io.chagchagchag.example_nio_aio.reactor.server.handler;
 
-import io.chagchagchag.example_nio_aio.reactor.server.handler.EventHandler;
 import java.io.IOException;
 import java.nio.channels.Selector;
 import java.nio.channels.ServerSocketChannel;
